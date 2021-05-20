@@ -1,0 +1,18 @@
+---
+ # Default entries
+
+adlPrdPath: "adl://yourcompany.azuredatalakestore.net/your/dl/path/prd"
+sourceRootPath: "adl://yourcompany.azuredatalakestore.net/your/source/root/path/"
+destinyRootPath: "adl://yourcompany.azuredatalakestore.net/your/destiny/root/path/"
+
+# Optional entries
+weather:
+  cold: weather/cold/cold.parquet
+  
+water:
+  acqua: water/acqua/acqua.parquet
+  ocean: water/ocean/ocean.parquet
+  frozen: water/ocean/frozen/frozen.parquet
+  
+light:
+ sunlight: light/sunlight/bob_and_alice.parquet
